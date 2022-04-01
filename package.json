@@ -1,0 +1,26 @@
+{
+  "homepage": "http://donaldkaiserjr.github.io/weather-api",
+  "name": "weather-api",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "^0.29.0",
+    "morgan": "~1.9.1",
+    "requests": "^0.3.0",
+    "sv443-joke-api": "^0.1.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
